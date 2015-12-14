@@ -1,14 +1,14 @@
-var webshot 			= require('webshot');
-var fs						= require('fs');
-var http 					= require('http');
-var dispatcher 		= require('httpdispatcher');
-var request 			= require('request');
-var events 				= require('events');
+var webshot	= require('webshot');
+var fs		= require('fs');
+var http	= require('http');
+var dispatcher  = require('httpdispatcher');
+var request	= require('request');
+var events 	= require('events');
 
-var EventEmitter 	= new events.EventEmitter();
+var EventEmitter= new events.EventEmitter();
 
-const PORT				= 1337;
-const index				= 'tester';
+const PORT	= 1337;
+const index	= 'tester';
 
 var documentCount = 0;
 var documentArray = [];
